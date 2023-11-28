@@ -22,12 +22,14 @@ endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
 
-function add_admin_link_to_header() {
-    if ( is_user_logged_in() ) {
-        echo '<a href="' . admin_url() . '">Admin</a>';
-    }
+function admin_link_shortcode() {
+    ob_start(); // Démarre la temporisation de la sortie
+    if (is_user_logged_in()) {
+        echo '<a href="' . admin_url() . '" class="admin-link">Admin</a>';
+        }
+    return ob_get_clean(); // Récupère le contenu du tampon de sortie et le nettoie
 }
-add_action( 'wp_head', 'add_admin_link_to_header' );
+add_shortcode('admin_link', 'admin_link_shortcode');
 
 
 
