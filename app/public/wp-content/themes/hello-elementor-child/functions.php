@@ -22,4 +22,13 @@ endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
 
+function add_admin_link_to_header() {
+    if ( is_user_logged_in() ) {
+        echo '<a href="' . admin_url() . '">Admin</a>';
+    }
+}
+add_action( 'wp_head', 'add_admin_link_to_header' );
+
+
+
 // END ENQUEUE PARENT ACTION
