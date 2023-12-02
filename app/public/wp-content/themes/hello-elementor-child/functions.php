@@ -21,7 +21,6 @@ if ( !function_exists( 'child_theme_configurator_css' ) ):
 endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
-
 function admin_link_shortcode() {
     if (is_user_logged_in()) { // Je vérifie si l'utilisateur et connecté à Wordpress
         return '<a href=" '. admin_url() .' " class="admin-link">Admin</a>'; // J'affiche un lien qui redirige vers la page Admin
@@ -29,8 +28,5 @@ function admin_link_shortcode() {
     return ''; // Je retourne une chaîne de caractère vide si l'utilisateur n'est pas connecté à Wordpress
 }
 add_shortcode('admin_link', 'admin_link_shortcode'); // Ajout d'un Shortcode pour pouvoir l'intégrer sur mon header
-
-
-
 
 // END ENQUEUE PARENT ACTION
