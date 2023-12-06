@@ -1,0 +1,153 @@
+[16-Nov-2023 14:11:08 UTC] PHP Warning:  Undefined array key 3 in C:\Users\MegaX\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\forms\main.php on line 9
+[16-Nov-2023 14:11:25 UTC] PHP Warning:  Undefined array key 3 in C:\Users\MegaX\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\forms\main.php on line 9
+[16-Nov-2023 14:11:27 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[16-Nov-2023 14:11:28 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\MegaX\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 958
+[16-Nov-2023 14:11:28 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\MegaX\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 960
+[16-Nov-2023 14:11:28 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\MegaX\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 967
+[16-Nov-2023 14:11:28 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\MegaX\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 968
+[16-Nov-2023 14:11:28 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\MegaX\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 971
+[16-Nov-2023 14:11:39 UTC] PHP Warning:  Undefined array key 3 in C:\Users\MegaX\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\forms\main.php on line 9
+[16-Nov-2023 14:11:41 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[16-Nov-2023 14:11:43 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\MegaX\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 958
+[16-Nov-2023 14:11:43 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\MegaX\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 960
+[16-Nov-2023 14:11:43 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\MegaX\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 967
+[16-Nov-2023 14:11:43 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\MegaX\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 968
+[16-Nov-2023 14:11:43 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\MegaX\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 971
+[17-Nov-2023 19:50:04 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[18-Nov-2023 14:04:35 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[18-Nov-2023 14:13:23 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[18-Nov-2023 14:45:06 UTC] WordPress database error Duplicate column name 'referer_title' for query 
+			ALTER TABLE `wp_e_submissions`
+			ADD COLUMN `referer_title` varchar(300) null AFTER `referer`;
+		 made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, ElementorPro\Modules\Forms\Submissions\Component->ElementorPro\Modules\Forms\Submissions\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migration::install, Elementor\Core\Utils\Collection->map, array_map, ElementorPro\Modules\Forms\Submissions\Database\Migration::ElementorPro\Modules\Forms\Submissions\Database\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Referer_Extra->run
+[18-Nov-2023 14:45:06 UTC] WordPress database error Duplicate key name 'referer_index' for query 
+			ALTER TABLE `wp_e_submissions`
+			ADD INDEX `referer_index` (`referer`(191)),
+			ADD INDEX `referer_title_index` (`referer_title`(191));
+		 made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, ElementorPro\Modules\Forms\Submissions\Component->ElementorPro\Modules\Forms\Submissions\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migration::install, Elementor\Core\Utils\Collection->map, array_map, ElementorPro\Modules\Forms\Submissions\Database\Migration::ElementorPro\Modules\Forms\Submissions\Database\{closure}, ElementorPro\Modules\Forms\Submissions\Database\Migrations\Referer_Extra->run
+[20-Nov-2023 22:41:17 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-Nov-2023 22:48:02 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-Nov-2023 23:01:32 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[21-Nov-2023 11:08:44 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[21-Nov-2023 11:16:07 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[21-Nov-2023 11:36:16 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[21-Nov-2023 12:15:40 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[21-Nov-2023 12:15:52 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[21-Nov-2023 12:16:10 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[21-Nov-2023 12:18:35 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[21-Nov-2023 12:29:41 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[21-Nov-2023 12:31:46 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[21-Nov-2023 13:30:32 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[21-Nov-2023 13:31:41 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[21-Nov-2023 18:58:18 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\MegaX\Local Sites\planty\app\public\wp-content\plugins\formidable\classes\controllers\FrmAddonsController.php:1259
+Stack trace:
+#0 C:\Users\MegaX\Local Sites\planty\app\public\wp-content\plugins\formidable\classes\controllers\FrmWelcomeController.php(175): FrmAddonsController::conditional_action_button('views', 'views-info')
+#1 C:\Users\MegaX\Local Sites\planty\app\public\wp-content\plugins\formidable\classes\views\welcome\show.php(90): FrmWelcomeController::maybe_show_conditional_action_button('views', 'views-info')
+#2 C:\Users\MegaX\Local Sites\planty\app\public\wp-content\plugins\formidable\classes\controllers\FrmWelcomeController.php(102): include('C:\\Users\\MegaX\\...')
+#3 C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): FrmWelcomeController::screen_content('')
+#4 C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\MegaX\Local Sites\planty\app\public\wp-admin\admin.php(259): do_action('formidable_page...')
+#7 {main}
+  thrown in C:\Users\MegaX\Local Sites\planty\app\public\wp-content\plugins\formidable\classes\controllers\FrmAddonsController.php on line 1259
+[22-Nov-2023 09:51:24 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[24-Nov-2023 21:41:54 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[24-Nov-2023 23:57:42 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[24-Nov-2023 23:59:04 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[25-Nov-2023 00:05:23 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[25-Nov-2023 00:13:05 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[25-Nov-2023 00:14:17 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[25-Nov-2023 00:14:41 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[25-Nov-2023 00:15:16 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[26-Nov-2023 21:42:45 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[26-Nov-2023 22:29:44 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[26-Nov-2023 22:31:06 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[26-Nov-2023 22:39:26 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[26-Nov-2023 23:28:05 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[26-Nov-2023 23:30:07 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[26-Nov-2023 23:31:28 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[26-Nov-2023 23:32:08 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[26-Nov-2023 23:33:33 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[26-Nov-2023 23:34:40 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[27-Nov-2023 12:12:46 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[27-Nov-2023 13:15:22 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[27-Nov-2023 13:29:03 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[27-Nov-2023 13:33:47 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[27-Nov-2023 13:36:55 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[27-Nov-2023 13:39:50 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[27-Nov-2023 13:40:33 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[27-Nov-2023 13:45:15 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[27-Nov-2023 13:45:54 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[27-Nov-2023 13:57:57 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[27-Nov-2023 14:05:31 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[27-Nov-2023 17:51:58 UTC] Erreur d’événement de replanification de tâche pour le crochet wp_privacy_delete_old_export_files. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
+[27-Nov-2023 18:04:00 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[27-Nov-2023 18:28:20 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[27-Nov-2023 18:35:02 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[27-Nov-2023 18:36:40 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[27-Nov-2023 21:22:15 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\MegaX\Local Sites\planty\app\public\wp-content\themes\hello-elementor-child\functions.php on line 24
+[27-Nov-2023 21:22:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[27-Nov-2023 21:22:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[27-Nov-2023 21:22:34 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting "elseif" or "else" or "endif" in C:\Users\MegaX\Local Sites\planty\app\public\wp-content\themes\hello-elementor-child\functions.php on line 25
+[27-Nov-2023 21:22:34 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting "elseif" or "else" or "endif" in C:\Users\MegaX\Local Sites\planty\app\public\wp-content\themes\hello-elementor-child\functions.php on line 25
+[28-Nov-2023 13:26:46 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 14:21:37 UTC] PHP Warning:  Undefined property: stdClass::$target in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-walker-nav-menu.php on line 218
+[28-Nov-2023 14:21:37 UTC] PHP Warning:  Undefined property: stdClass::$xfn in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-walker-nav-menu.php on line 221
+[28-Nov-2023 14:21:37 UTC] PHP Warning:  Undefined property: stdClass::$current in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-walker-nav-menu.php on line 234
+[28-Nov-2023 14:42:12 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 14:49:49 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 14:52:50 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 14:58:10 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 19:10:44 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 19:27:04 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 19:27:59 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 19:42:33 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 19:46:43 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 19:47:30 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 19:50:43 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 19:58:30 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 20:01:11 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 20:08:50 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 20:10:58 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 20:14:36 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 20:16:20 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 20:20:49 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 20:23:09 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 20:49:35 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 20:59:18 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 21:13:23 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[28-Nov-2023 21:19:21 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[29-Nov-2023 09:55:14 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[29-Nov-2023 10:06:57 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[29-Nov-2023 10:08:59 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[29-Nov-2023 13:49:38 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[29-Nov-2023 16:47:58 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[30-Nov-2023 12:23:32 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[30-Nov-2023 23:03:44 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[01-Dec-2023 14:24:01 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[01-Dec-2023 17:33:09 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[01-Dec-2023 23:33:30 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 13:40:51 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 14:33:01 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 14:33:29 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 14:33:31 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 14:58:33 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 15:23:02 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 15:24:23 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 15:24:28 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 15:42:13 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 16:01:18 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 16:01:31 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 16:05:50 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 16:07:37 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 16:17:46 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 16:35:42 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 16:36:48 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 16:38:35 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 16:38:43 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 17:01:48 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Dec-2023 23:18:02 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[03-Dec-2023 16:56:39 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[04-Dec-2023 12:51:33 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[05-Dec-2023 12:14:11 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[05-Dec-2023 13:04:08 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\MegaX\Local Sites\planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
