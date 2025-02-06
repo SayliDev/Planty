@@ -1,2 +1,0 @@
-2023/11/20 00:00:56 [error] 6028#17056: *495 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: ::1, server: , request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:10106", host: "localhost:10107", referrer: "http://localhost:10107/wp-admin/index.php"
-2024/05/23 23:12:05 [alert] 21100#21104: OpenEvent("ngx_master_4296") failed (2: The system cannot find the file specified)
